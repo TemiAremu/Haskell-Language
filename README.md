@@ -1,7 +1,7 @@
-# _Your project title_
+# Haskell
 
-- _your name_
-- _your email (uoit.net)_
+- Temiloluwa Aremu
+- temiloluwa.aremu@uoit.net
 
 ## About the language
 
