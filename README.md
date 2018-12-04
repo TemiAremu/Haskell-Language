@@ -46,9 +46,9 @@ GHC complies Haskell code either directly to assembly, bytecode or using LLVM as
 
 There are also popular alternatives:
 
-*JHC- This is a whole program complier. It is more convenient for cross-compiling and ususally produces smaller binaries.The source code is extremely clear and readable. It aims to produce the most efficent programs possible via whole program analysis and other optimizations.
+- JHC- This is a whole program complier. It is more convenient for cross-compiling and ususally produces smaller binaries.The source code is extremely clear and readable. It aims to produce the most efficent programs possible via whole program analysis and other optimizations.
 
-*UHC- The Utrecht Haskell Complier is near feature-complete.It has multiple back-ends including a JVM bytecode interpreter backend, a JavaScript backend and a full program analysis backend. It implements many of GHC's most popular extensions and some original extensions as well.
+- UHC- The Utrecht Haskell Complier is near feature-complete.It has multiple back-ends including a JVM bytecode interpreter backend, a JavaScript backend and a full program analysis backend. It implements many of GHC's most popular extensions and some original extensions as well.
 
 ## About the standard library
 
