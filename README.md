@@ -1,4 +1,4 @@
-Haskell Language
+## Haskell Language
 
 - Temiloluwa Aremu
 - temiloluwa.aremu@uoit.net
@@ -6,10 +6,10 @@ Haskell Language
 ## About the language
 
 > _Language Description_
->
-> - Haskell is a general-purpose functional programming language with non-strict semantics and strong static typing. It is named after Haskell Brooks Curry. He was an American Mathematician and logician. Haskell's main work was in combinatory logic, a notation designed to eliminate the need for variables in mathematical logic. Combinatory logic captures many key features of computation, and as a result, is useful in computer science. Haskell has three programming languages named after him: Haskell, Brooks, and Curry.
 
-> - Some interesting features
+Haskell is a general-purpose functional programming language with non-strict semantics and strong static typing. It is named after Haskell Brooks Curry. He was an American Mathematician and logician. Haskell's main work was in combinatory logic, a notation designed to eliminate the need for variables in mathematical logic. Combinatory logic captures many key features of computation, and as a result, is useful in computer science. Haskell has three programming languages named after him: Haskell, Brooks, and Curry.
+
+Interesting Features
 
 Haskell the programming language is built around functions, useful blocks of code that do specific tasks. They are called and used only when needed. 
 
