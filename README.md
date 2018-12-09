@@ -5,25 +5,31 @@
 
 ## About the language
 
+> _What is Haskell?
+
+Haskell is a general-purpose, purely functional programming language incorporating many recent innovations in programming language design.Haskell provides higher-order functions, non-strict semantics,static polymorphic typing, user-defined algebraic datatypes, pattern-matching, list comprehensions, a module system, a monadic I/O system, and a rich set of primitive datatypes, including lists, arrays,arbitary and fixed precision integers, and floating-point numbers.
+
 > _History_
 
-Haskell is a general-purpose functional programming language with non-strict semantics and strong static typing. It is named after Haskell Brooks Curry. He was an American Mathematician and logician. Haskell's main work was in combinatory logic, a notation designed to eliminate the need for variables in mathematical logic. Combinatory logic captures many key features of computation, and as a result, is useful in computer science. Haskell has three programming languages named after him: Haskell, Brooks, and Curry.
+Haskell is named after Haskell Brooks Curry. He was an American Mathematician and logician. Haskell's main work was in combinatory logic, a notation designed to eliminate the need for variables in mathematical logic. Combinatory logic captures many key features of computation, and as a result, is useful in computer science. Haskell has three programming languages named after him: Haskell, Brooks, and Curry.
 
 > _Interesting Features_
 
--Haskell the programming language is built around functions, useful blocks of code that do specific tasks. They are called and used only when needed. 
+-Haskell the programming language is built around **functions**, useful blocks of code that do specific tasks. They are called and used only when needed. 
 
 -Haskell has functions are treated as values like integers (numbers) and strings. You can add a function to another similarly to how you would add an integer to another integer e.g 1 + 1.
 
--Haskell uses non-strict semantics  meaning that the input argurments are not evaluated unless the argurents passed into the function are used to evalute what is in the body of the function.
+-Haskell uses **non-strict semantics**  meaning that the input arguments are not evaluated unless the argurents passed into the function are used to evalute what is in the body of the function.
 
--Haskell has string static typing which means that it evalutes the code before runtime, when the code is staic and possibly as the code is written.
+-Haskell has **string static typing** which means that it evalutes the code before runtime, when the code is staic and possibly as the code is written.
 
--Haskell uses strong data typing which is evaluting properties of all inputs into a function and uses the function to sort numbers and strings of text.
+-Haskell uses **strong data typing** which is evaluting properties of all inputs into a function and uses the function to sort numbers and strings of text.
 
--Haskell uses lazy evalution which allows the result of a function to be handed to another function on the same line of code.It doesn't perform a computation unless it needs to.
+-Haskell uses **lazy evalution** which allows the result of a function to be handed to another function on the same line of code.It doesn't perform a computation unless it needs to.
 
--Haskell has no loops because it doesn't need them. 
+-Haskell has no **loops or branching** only recursion. 
+
+- Haskell is based on **typed lambda calculus**.
 
 ## About the syntax
 
@@ -36,6 +42,13 @@ main = do
 ```
 This would generate the following output ->
 [1,2,3,4,5,6,7,8,9,10]
+
+*Hello World! in Haskell*
+
+```haskell
+main :: IO ()
+main = putStrLn "Hello, World!"
+```
 
 ## About the tools
 
