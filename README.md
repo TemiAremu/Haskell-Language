@@ -5,7 +5,7 @@
 
 ## About the language
 
-> _What is Haskell?
+> What is Haskell?
 
 Haskell is a general-purpose, purely functional programming language incorporating many recent innovations in programming language design.Haskell provides higher-order functions, non-strict semantics,static polymorphic typing, user-defined algebraic datatypes, pattern-matching, list comprehensions, a module system, a monadic I/O system, and a rich set of primitive datatypes, including lists, arrays,arbitary and fixed precision integers, and floating-point numbers.
 
@@ -15,19 +15,19 @@ Haskell is named after Haskell Brooks Curry. He was an American Mathematician an
 
 > _Interesting Features_
 
--Haskell the programming language is built around **functions**, useful blocks of code that do specific tasks. They are called and used only when needed. 
+- Haskell the programming language is built around **functions**, useful blocks of code that do specific tasks. They are called and used only when needed. 
 
--Haskell has functions are treated as values like integers (numbers) and strings. You can add a function to another similarly to how you would add an integer to another integer e.g 1 + 1.
+- Haskell has functions are treated as values like integers (numbers) and strings. You can add a function to another similarly to how you would add an integer to another integer e.g 1 + 1.
 
--Haskell uses **non-strict semantics**  meaning that the input arguments are not evaluated unless the argurents passed into the function are used to evalute what is in the body of the function.
+- Haskell uses **non-strict semantics**  meaning that the input arguments are not evaluated unless the argurents passed into the function are used to evalute what is in the body of the function.
 
--Haskell has **string static typing** which means that it evalutes the code before runtime, when the code is staic and possibly as the code is written.
+- Haskell has **string static typing** which means that it evalutes the code before runtime, when the code is staic and possibly as the code is written.
 
--Haskell uses **strong data typing** which is evaluting properties of all inputs into a function and uses the function to sort numbers and strings of text.
+- Haskell uses **strong data typing** which is evaluting properties of all inputs into a function and uses the function to sort numbers and strings of text.
 
--Haskell uses **lazy evalution** which allows the result of a function to be handed to another function on the same line of code.It doesn't perform a computation unless it needs to.
+- Haskell uses **lazy evalution** which allows the result of a function to be handed to another function on the same line of code.It doesn't perform a computation unless it needs to.
 
--Haskell has no **loops or branching** only recursion. 
+- Haskell has no **loops or branching** only recursion. 
 
 - Haskell is based on **typed lambda calculus**.
 
