@@ -101,25 +101,25 @@ The official github library is https://github.com/jgm/pandoc
 
 ## Analysis of the language
 
-# Functional vs Procedural Programming
+#### Functional vs Procedural Programming
 
 Haskell is a **functional** programming language in which most expressions are **pure**. This means that functions generally have no side effects. A distinct construct exists to represent side effects, orthogonal to the type of functions. A pure function can return a side effect that is subsequently executed, modeling the impure functions of other languages. Haskell must compute a result and do it only for the current value of global constants and it's arguments. It cannot modify a global and it cannot modify the values that it's given as arguments.
 
-# Meta-Programming / Macros
+#### Meta-Programming / Macros
 
 Template Haskell is an extension to Haskell 98 that allows you to do type-safe compile-time **meta-programming**, with Haskell both as the manipulating language and the language being manipulated.
 
 Intuitively Template Haskell provides new language features that allow us to convert back and forth between concrete syntax, i.e. what you would type when you write normal Haskell code, and abstract syntax trees. These abstract syntax trees are represented using Haskell datatypes and, at compile time, they can be manipulated by Haskell code. This allows you to reify (convert from concrete syntax to an abstract syntax tree) some code, transform it and splice it back in (convert back again), or even to produce completely new code and splice that in, while the compiler is compiling your module.
 
-# Symbol Resolution and its support for Closure
+#### Symbol Resolution and its support for Closure
 
 Closures are not a violation because all bindings in Haskell are immutable. It is very common that lambda expressions capture variables from outside the body of the definition. In Haskell, functions are an essential part of the language, largely because Haskell is based on the Lambda Calculus. In the Lambda Calculus, there are functions that have "free variables", meaning that they use variables that were not passed as direct parameters to them. Functions with free variables are what you would call "closures" in this case.  Haskell essentially creates functions with free variables everywhere, and thus, closures are created all the time. 
 
-# Lexical vs Dynamic Scoping
+#### Lexical vs Dynamic Scoping
 
 Haskell uses Lexical scoping. A block defines a new scope. Variables can be declared in that scope, and aren't visible from the outside. However, variables outside the scope -- in enclosing scopes -- are visible unless they are overridden (shadowed).
 
-# Functional Programming Constructs
+#### Functional Programming Constructs
 
 Functional Programming Constructs are added to Haskell for reasons like:
 - Pattern Matching: Functional languages typically have extremely compact syntax for dealing with pattern matching. This winds up very useful in things like Data Mining.
@@ -128,11 +128,11 @@ Functional Programming Constructs are added to Haskell for reasons like:
 
 - State Control: Functional Programming has no variables whatsoever, it has symbols instead. Every "variable" has a single unchanging value. That means we don't get any kind of ambiguity in terms of what something is. 
 
-# Static vs Dynamic Types
+#### Static vs Dynamic Types
 
 Haskell has a static type system. Type inference is done at compile time. All types are checked at compile time. Haskell implementations may erase types at runtime, as they have a compile-time proof of type safety. Many bugs are found at compile time, rather than run time.
 
-# Strengths and Weaknesses
+#### Strengths and Weaknesses
 
 Strengths
 
