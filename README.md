@@ -69,7 +69,7 @@ The most important Haskell library is called the **Prelude**. It is implicity im
 
 **List Processing Basics**
 - (:) The basic list constructor. Adds an element to the front of a list.
-- (++) The list concatenator. Adds a list onto the front of another list. Make sure you understand the difference between : and ++
+- (++) The list concatenator. Adds a list onto the front of another list.
 - (head) Returns the first element of a list.
 - (last) The opposite of head; last returns the last element of a list.
 - (tail) The tail of a list is everything except the first element. Returns an error if the list is empty.
