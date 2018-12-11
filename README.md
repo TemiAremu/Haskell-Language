@@ -65,13 +65,39 @@ There are also popular alternatives:
 
 ## About the standard library
 
-> _Give some examples of the functions and data structures
-> offered by the standard library_.
+The most important Haskell library is called the **Prelude**. It is implicity imported by default, and includes the most commonly used functions.
 
+**List Processing Basics**
+- (:) The basic list constructor. Adds an element to the front of a list.
+- (++) The list concatenator. Adds a list onto the front of another list. Make sure you understand the difference between : and ++
+- (head) Returns the first element of a list.
+- (last) The opposite of head; last returns the last element of a list.
+- (tail) The tail of a list is everything except the first element. Returns an error if the list is empty.
+- (init) The opposite of tail. Given a list, init returns the list without the last element.
+- (length) Returns the length of the list
+- (!!) Returns the element of a list located at the specified index. Note that an 'index' starts counting from zero. 
+
+**Extra List Processing**
+ - maximum and minimum: These return the largest and smallest elements of a list repectively.
+ - reverse: reverse takes a list and returns the reverse.
+ - elem and notElem : elem tells you if a specified element is in a list, and notElem is simply the opposite of that.
+ - concat: concat takes in a list of lists and combines them all into one list.
+ - take and drop: take n [a] gives you the first n elements of the list. Likewise, drop n [a] gives you everything back except the first n elements of a list.
+ - takeWhile and dropWhile: Similar to take and drop. They take in a function and use it to 'test' elements of the list starting from the beginning.
+
+**Higher Order Functions**
+- map: It takes in two inputs - a function, and a list. It then applies this function to every element in the list.
+- fold: fold takes in a function and folds it in between the elements of a list.
+- filter: Filter takes in a 'test' and a list, and it chucks out any elements of the list which don't satisfy that test.
+ 
 ## About open source library
 
-> _Describe at least one contribution by the open source
-community written in the language._
+There are numerous open-source projects being contributed for the Haskell Language. A very popular one is Pandoc which is a Haskell library for converting from one markup format to another, and a command-line tool that uses this library. 
+
+**Pandoc**
+
+If you need to convert files from one markup format into another, pandoc is your swiss-army knife. Pandoc can convert documents in (several dialects of) Markdown, reStructuredText, textile, HTML, DocBook, LaTeX, MediaWiki markup, TWiki markup, TikiWiki markup, Creole 1.0, Vimwiki markup, roff man, OPML, Emacs Org-Mode, Emacs Muse, txt2tags, Microsoft Word docx, LibreOffice ODT, EPUB, or Haddock markup to HTML formats, Ebooks, PDF to name a few
+The official github library is https://github.com/jgm/pandoc
 
 # Analysis of the language
 
